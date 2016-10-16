@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <display-name>CrunchifyJSPServletExample</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>CreateGiftServlet</servlet-name>
+        <servlet-class>servlets.CreateGiftServlet</servlet-class>
+    </servlet>
+
+
+    <servlet>
+    <servlet-name>ButterscotchServlet</servlet-name>
+    <servlet-class>servlets.butterscotch.ButterscotchServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ButterscotchServletGetInf</servlet-name>
+        <servlet-class>servlets.butterscotch.ButterscotchServletGetInf</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ChocolateServlet</servlet-name>
+        <servlet-class>servlets.chocolate.ChocolateServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ChocolateServletGetInf</servlet-name>
+        <servlet-class>servlets.chocolate.ChocolateServletGetInf</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>JellyServlet</servlet-name>
+        <servlet-class>servlets.jelly.JellyServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>JellyServletGetInf</servlet-name>
+        <servlet-class>servlets.jelly.JellyServletGetInf</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LiqueurServlet</servlet-name>
+        <servlet-class>servlets.liqueur.LiqueurServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LiqueurServletGetInf</servlet-name>
+        <servlet-class>servlets.liqueur.LiqueurServletGetInf</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>WaferServlet</servlet-name>
+        <servlet-class>servlets.wafer.WaferServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>WaferServletGetInf</servlet-name>
+        <servlet-class>servlets.wafer.WaferServletGetInf</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ShowGiftServlet</servlet-name>
+        <servlet-class>servlets.ShowGiftServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SortByPriceServlet</servlet-name>
+        <servlet-class>servlets.sort.SortByPriceServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>TotalWeightServlet</servlet-name>
+        <servlet-class>servlets.TotalWeightServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ParametersSearchServlet</servlet-name>
+        <servlet-class>servlets.ParametersSearchServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>servlets.SearchServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>OperationsWithGiftServlet</servlet-name>
+        <servlet-class>servlets.OperationsWithGiftServlet</servlet-class>
+    </servlet>
+</web-app>
